@@ -18,38 +18,36 @@ body {
     font-size: 14px;
     -webkit-font-smoothing:antialiased;
 }
-.container {
+.cards__container {
     max-width: 1600px;
     width: 100%;
     height: auto;
     margin: 0 auto;
 }
-.section {
-    padding: 50px 10px 50px 10px;
-}
-.hero {
+.cards__content {
    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 50px 10px 50px 10px;
 }
-.hero__item {
+.cards__item {
     margin: 0 10px 0 10px;
     max-width: 253px;
     border: 1px solid #dfdfdf;
 }
-.hero__body {
+.cards__body {
     padding: 20px 40px 20px 20px;
 }
-.hero__title {
+.cards__title {
     font-size: 18px;
 }
-.hero__text {
+.cards__text {
     line-height: 1.5;
     font-size: 15px;
     padding: 15px 0 20px 0;
 }
-.hero__btn {
+.cards__btn {
     padding: 10px 13px;
     border-radius: 3px;
     cursor: pointer;
@@ -59,7 +57,7 @@ body {
     color: #fff;
     transition: background 0.2s;  
 }
-.hero__btn:hover {
+.cards__btn:hover {
     background: #924ED9;
     transition: background 0.2s;
 }
